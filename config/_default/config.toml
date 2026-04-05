@@ -4,7 +4,7 @@ title = 'Magnolia Default' # This can get overwritten by the single language fil
 defaultContentLanguage = 'en'
 # defaultContentLanguageInSubDir = true
 enableRobotsTXT = true
-theme = "Magnolia"
+theme = "magnolia"
 googleAnalytics = ""
 
 # Block AI crawlers to limit traffic
