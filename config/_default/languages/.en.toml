@@ -19,9 +19,9 @@ contentDir = "content/en"
     title = "George Wolff"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
-I'm a politics and international development student at the University of Birmingham, president of UoB InterVol, and part-time landscaper.
+I'm a politics and international development student at the University of Birmingham. I am about to start my Year in Civic Leadership with the charity citizens. 
 
-This site is where I think out loud — about civic life, community, politics, and whatever else I'm working through.
+This site is where I think out loud — about civic life, community, politics, hobbies, and whatever else I'm working through.
         """
     mainButton = "Features"
     mainButtonRef = "features" # Just write the name or slug of the page here
