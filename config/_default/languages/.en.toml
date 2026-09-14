@@ -19,7 +19,7 @@ contentDir = "content/en"
     title = "George Wolff"
     # You can use some markdown safely here as long as you don't include line breaks
     intro= """
-I'm a politics and international development student at the University of Birmingham. I am about to start my Year in Civic Leadership with the charity citizens. 
+I'm a politics and international development student at the University of Birmingham. I am about to start my Year in Civic Leadership with the charity, Citizens. 
 
 This site is where I think out loud — about civic life, community, politics, hobbies, and whatever else I'm working through.
         """
