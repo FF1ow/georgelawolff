@@ -39,40 +39,32 @@ This site is where I think out loud — about civic life, community, politics, h
  mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d382266.44569392945!2d-76.55832397784323!3d41.53770983690751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4d93a77484bbb%3A0xfff27920ab9bfae8!2sScranton%2C%20Pennsylvania%2C%20Stati%20Uniti!5e0!3m2!1sit!2sit!4v1716459350324!5m2!1sit!2sit" # google maps "embed" link here
 
 [params.contacts]
-  title = "Get in touch!"
-  formCallToAction = "This is a \"contact us\" example page, you can receive form responses on FormSpree."
-  socialCallToAction = "You can add your own social media links below!" # These are the same as in [params.social]
+  title = "Get in touch"
+  formCallToAction = "The best way to reach me is via LinkedIn."
+  socialCallToAction = ""
   [params.contacts.form]
-    formspreeLink = "https://yourformspreelink.com" #subscribe to formspree and add the link for the form here
-    firstname = "Firstname*"
-    lastname = "Lastname*"
-    email = "E-mail*"
-    phone = "Phone Number*"
-    Inquiry = "Inquiry*"
-    checkbox = "I accept that my data will be processed in accordance with the law*"
-    submitBtn = "Submit"
+    formspreeLink = ""
+    firstname = ""
+    lastname = ""
+    email = ""
+    phone = ""
+    Inquiry = ""
+    checkbox = ""
+    submitBtn = ""
 [params.services]
   title = "About"
     description = """<p>This site is a record of what I'm thinking and doing, without the performance that comes with social media. Expect notes on books I'm reading, systems I'm testing, and observations made along the way.</p><p>I'm currently putting down roots in Birmingham, studying Politics and International Development and figuring out what a well-lived life looks like in practice.</p><p>I'm interested in the role of non-state institutions in civic life. Communities create belonging, provide essential services, and build resilience. This has shaped my involvement with organisations like InterVol, Sense, and Citizens.</p>"""
   [params.services.list]
 [params.socials]
-  enabled = true # enables/disables the whole social section in the footer
-  callToAction= "Get connected with us on social networks >"
-      [[params.socials.link]]
-        name = "github"
-        link = "https://github.com/ololiuhqui/magnolia-free-hugo-theme"
-      [[params.socials.link]]
-        name = "linkedin"
-        link = ""
-      [[params.socials.link]]
-        name = "whatsapp"
-        link = ""
-      # You can add other socials here by copypasting the above section and
-      # selecting the right name for the icon from here https://icons.getbootstrap.com/
+  enabled = true
+  callToAction = ""
+  [[params.socials.link]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/georgelawolff/"
 
 [params.schedules] # Time schedules (eg. your office openming hours)
   enabledFooter = false # This will add the schedules on the footer too
-  enabledContacts = true # This will add the schedule to the contact page
+  enabledContacts = false # This will add the schedule to the contact page
   title = "Office hours" # For contacts page only
   [params.schedules.days]
   # Use something like "Monday: 9-13" for each day
@@ -86,17 +78,17 @@ This site is where I think out loud — about civic life, community, politics, h
     day7 = ""
 
 [params.footer]
-  extraDescription1 = "Straight outta Scranton city"
-  extraDescription2 = "VAT No. 0000000000"
+  extraDescription1 = ""
+  extraDescription2 = ""
   [params.footer.navigate]
   heading = "Navigate"
   [params.footer.contacts]
-  enabled = true # enables/disables the whole contacts section in footer
+  enabled = true
   heading = "Contact"
-  address = "Scranton 2865 Pouros Corners 55441-0788"
-  mail = "dundermifflin@fakemail.com"
-  mail2 = "dundermifflinorders@fakemail.com"
-  phone = "+00 0000000"
+  address = ""
+  mail = ""
+  mail2 = ""
+  phone = ""
 
 [params.notfound]
   title = "404, page not found" # text for 404 page
